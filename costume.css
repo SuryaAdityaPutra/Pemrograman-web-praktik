@@ -1,0 +1,59 @@
+
+br { clear:right }
+.menu_simple {
+    width: 100%;
+    background-color:none;  
+}
+.menu_simple ul {
+    width: 26%;
+    margin: 1; padding: 0;
+    float: right;
+}
+.menu_simple ul li {
+    display: inline;
+}
+.menu_simple ul li a {
+    font-weight: bold;
+    float: left; text-decoration: none;
+    font-size: 28px;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px;
+    background-color:none;
+}
+.menu_simple ul li a:visited {
+    color: rgb(255, 255, 255);
+}
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: rgb(255, 254, 254);
+    background-color: rgb(236, 60, 29);
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:#90AACB ;  
+}
+h1{
+    color: linen;
+    font-family: monospace;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+div img{
+    width: 700px;height: 400px;
+    display: block;
+    margin: auto; 
+    
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: mintcream;
+    
+}
